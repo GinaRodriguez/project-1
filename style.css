@@ -1,5 +1,12 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: blueviolet;
+  background: rgb(6, 106, 254);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 106, 254, 1) 4%,
+    rgba(26, 185, 255, 1) 46%,
+    rgba(216, 146, 254, 1) 100%
+  );
+  font-family: 'Roboto', sans-serif;
 }
