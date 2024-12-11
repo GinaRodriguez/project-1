@@ -9,9 +9,6 @@ body {
     rgba(216, 146, 254, 1) 100%
   );
   font-family: 'Roboto', sans-serif;
-  .container {
-    display: flex;
-  }
 }
 
 nav {
@@ -19,7 +16,8 @@ nav {
   font-size: 15px;
   font-style: italic;
   text-decoration: underline;
-  padding: 0px;
+  padding: 0%;
+  text-align: center;
   ul {
     list-style: none;
   }
@@ -35,6 +33,9 @@ h1 {
   font-size: 100px;
   font-style: bold;
   text-align: center;
+  background: -webkit-linear-gradient(#066afe, #1ab9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
