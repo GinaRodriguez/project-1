@@ -9,22 +9,46 @@ body {
     rgba(216, 146, 254, 1) 100%
   );
   font-family: 'Roboto', sans-serif;
+  .container {
+    display: flex;
+  }
 }
+
 nav {
-  color: rgb(107, 177, 253);
+  color: rgb(255, 255, 255);
   font-size: 15px;
   font-style: italic;
   text-decoration: underline;
+  padding: 0px;
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+    margin: 0 10px;
+  }
 }
 
 h1 {
-  color: rgb(107, 177, 253);
+  color: #5d54fa;
   font-size: 100px;
   font-style: bold;
+  text-align: center;
 }
 
 h2 {
   color: rgb(107, 177, 253);
-  font-size: 80px;
-  font-style: bold;
+  font-size: 50;
+  font-style: regular;
+}
+
+p {
+  color: white;
+}
+
+body,
+html {
+  margin: 50px;
+  padding: 5px;
 }
