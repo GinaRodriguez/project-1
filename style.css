@@ -39,9 +39,10 @@ h1 {
 }
 
 h2 {
-  color: rgb(107, 177, 253);
+  color: #0250d9;
   font-size: 50;
   font-style: regular;
+  text-shadow: 1px 1px #8eddff;
 }
 
 p {
