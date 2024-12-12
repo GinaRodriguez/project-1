@@ -67,3 +67,10 @@ html {
   flex-direction: column;
   justify-content: center;
 }
+
+image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
